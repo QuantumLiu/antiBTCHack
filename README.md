@@ -9,7 +9,7 @@
 
 第三步：右键点击开始按钮，选择命令提示行（管理员）（或者是powershell（管理员））
 
-第四步：输入~~pip install requests~~，然后按回车，等待完成后输入pip install pypiwin32，然后按回车，从而安装本脚本所必需的组件
+第四步：输入`<pip install requests>` ，然后按回车，等待完成后输入pip install pypiwin32，然后按回车，从而安装本脚本所必需的组件
 
 第五步：按住shift，同时右键点击第二步下载的文件旁边的空白处，选择“在此处打开命令提示行”（或者是“在此处打开powershell窗口”）
 
