@@ -13,7 +13,7 @@ if win32api.GetSystemDefaultLangID()==2052:
     language=1#chinese
 else:
     language=0#english
-ver='0.01_beta'
+ver='0.2.0beta'
 btc_list=['https://btc.com/'+add for add in['13AM4VW2dhxYgXeQepoHkHSQuy6NgaEb94','12t9YDPgwueZ9NyMgw519p7AA8isjr6SMw']]
 reg=r'class="tx-item-summary-hash">(.*)</a>'
 r_list=[requests.get(btc) for btc in btc_list]
