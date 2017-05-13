@@ -21,5 +21,6 @@ print(u'请将在列出的比特币交易ID中选择一串，复制粘贴到勒�
 for txid in re.findall(reg,r.text):
     print(txid)
     th=u'衷心希望这个破解脚本能够帮到你的忙，特别是即将毕业缺丢失毕业论文的大四学长。\n当前版本是0.01beta，效果有待验证,欢迎到我的GitHub反馈：https://github.com/QuantumLiu\n很惭愧，只做了一点微小的工作。\n如果这个脚本有帮到你,欢迎进行小额捐助.\nBTC：19UYnNM1hBduDQq8Z9G3Ld6FD5zjH4TKB7\nzcash:t1ghVzHQRxkCm8vzLRzbfNTTxip3LkZB2sA\n 支付宝alipay：liuyiliang100@sina.com\n'
+    th+=u'方法来自：https://www.zhihu.com/pin/846570592869183488#comment-280580859'
 print(th)
 os.system('pause')
