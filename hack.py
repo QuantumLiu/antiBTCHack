@@ -5,7 +5,6 @@ Created on Sat May 13 08:47:08 2017
 @author: Quantum Liu
 """
 
-from __future__ import print_function
 import re
 import sys
 
